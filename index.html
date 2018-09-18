@@ -8,12 +8,12 @@
     <title>José Cuevas</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="./img/logo-black.png" alt="Logo">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li><a href="#portafolio">Portafolio</a></li>
                     <li><a href="#eventos">Sobre mi</a></li>
@@ -23,45 +23,47 @@
         </div>
 
     </header>
-    <section>
+    <section class="hero">
         <h1>¡Hola! Soy <strong>José Cuevas</strong>, <br> desarrolador de profesión y <br> amante de los <strong>videojuegos.</strong> </h1>
         <img src="./img/jose.JPG" alt="Imagen de Portada" width="500px">
     </section>
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio</h2>
-        <article>
-            <h3>Continiu Podcast</h3>
-            <h6>HTML / CSS / JavaScript</h6>
-            <p> <small> <strong>Fecha: </strong>10/11/2017</small></p>
-            <p><small><strong>Puedes verlo en: </strong>www.continiu.com</small></p>
-            <p>Continiu Podcast es un proyecto personal entre uno de mis mejores amigos y yo. Continiu Podcast
+        <article class="project">
+            <h3 class="project-title">Continiu Podcast</h3>
+            <h6 class="project-course">HTML / CSS / JavaScript</h6>
+            <p class="project-date"> <small> <strong>Fecha: </strong>10/11/2017</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en: </strong>www.continiu.com</small></p>
+            <p class="project-description">Continiu Podcast es un proyecto personal entre uno de mis mejores amigos y yo. Continiu Podcast
                 es el fruto de nuestro amor desmedido por los videojuegos y las ganas de poder compartir al mundo esta pasión.
                 Continiu Podcast es la plática entre amigos que tenías en la Universidad sobre eso que tanto nos gusta, los videojuegos.
             </p>
-            <img src="./img/continiu.png" alt="Continiu.com" width="500px">
+            <figure class="project-imageContainer">
+                <img class="project-image" src="./img/continiu.png" alt="Continiu.com" width="500px">
+            </figure>
 
 
         </article>
     </section>
     <section id="eventos">
         <h2>Más sobre mi</h2>
-        <article>
-            <figure>
-                <img src="./img/youtube.png" width="500px" alt="">
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="./img/youtube.png" width="500px" alt="">
             </figure>
-            <h3>Continiu</h3>
-            <p>Canal de YouTube en el que puedes escuchar el podcast que realizo junto con uno de mis mejores amigos</p>
-            <a href="https://www.youtube.com/watch?v=c6A4iG7sTLE&t=2s&frags=pl%2Cwn" target="_blank">Escuchar</a>
+            <h3 class="event-title">Continiu</h3>
+            <p class="event-description">Canal de YouTube en el que puedes escuchar el podcast que realizo junto con uno de mis mejores amigos</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=c6A4iG7sTLE&t=2s&frags=pl%2Cwn" target="_blank">Escuchar</a>
         </article>
     </section>
-    <section id="contacto">
-        <form action="/suscripcion/">
+    <section id="contacto" class="contact">
+        <form action="/suscripcion/" class="form-email">
             <h3>¿Creamos algo juntos?</h3>
             <input type="email" name="email" id="id" required>
             <button>Enviar</button>
         </form>
     </section>
-    <footer>Footer</footer>
+    <footer class="footer">Footer</footer>
     
 </body>
 </html>

@@ -36,6 +36,10 @@ h1 strong {
     text-decoration: none;
 }
 
+.project {
+    border: 1px solid gray;
+}
+
 .project-details {
     width: 500px;
 }

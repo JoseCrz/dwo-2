@@ -1,5 +1,6 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,9 +38,21 @@ h1 strong {
     text-decoration: none;
 }
 
+.logo {
+    margin: 0;
+}
+
+.portfolio {
+    background: #fafafa;
+}
+
 .project {
     border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    background: white;
 }
 
 .project-details {

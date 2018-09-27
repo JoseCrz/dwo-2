@@ -12,7 +12,8 @@ h1 {
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 520px 70px 30px;
+    margin: 0;
+    /* margin: 100px 520px 70px 30px; */
 }
 
 h1 strong {
@@ -30,19 +31,22 @@ figure {
 }
 
 .hero {
+    display: flex;
     height: 375px;
     background-image: url('../img/jose.JPG');
     background-color: #1b2127;
     background-size: 500px 375px;
     background-repeat: no-repeat;
     background-position-x: right;
+    align-items: center;
 }
 
 .header {
     background-color: #1b2127;
     color: white;
-    height: 90px;
+    height: 70px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -93,4 +97,21 @@ figure {
 
 .project-imageContainer {
     width: 500px;
+}
+
+.footer {
+    color: white;
+    background: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
 }
